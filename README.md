@@ -1,5 +1,43 @@
 # AWS Bedrock Knowledge Base with Aurora Serverless
 
+**Author:** Olivia Iminza Hamisi  
+**Description:**  
+This project demonstrates a Generative AI RAG solution using Amazon Bedrock, Aurora Serverless PostgreSQL, and S3. It includes Terraform-based infrastructure, data ingestion scripts, and a Streamlit chat app for querying the Bedrock Knowledge Base.
+
+---
+
+## 📂 Project Contents
+- Terraform configuration for VPC, Aurora, and S3
+- Bedrock Knowledge Base setup
+- Python scripts for S3 upload and Streamlit chat app
+- SQL configuration for vector storage
+- Screenshots folder with deployment evidence
+
+---
+
+## 📸 Required Screenshots
+- `terraform_apply_output.png`
+- `secret_manager.png`
+- `pg_extension_result.png`
+- `bedrock_integration_table.png`
+- `kb_deployed.png`
+- `kb_data_sync.png`
+- `streamlit_response.png`
+- `invalid_prompt_example.png`
+
+---
+
+## 🧠 Model Parameters
+See `temperature_top_p_explanation.pdf` for explanation of `temperature` and `top_p`.
+
+---
+
+## 🔗 Knowledge Base
+Knowledge Base ID: `<your-bedrock-kb-id>`
+S3 Bucket: `<your-s3-bucket-name>`
+Region: `us-west-2`
+# AWS Bedrock Knowledge Base with Aurora Serverless
+
 This project sets up an AWS Bedrock Knowledge Base integrated with an Aurora Serverless PostgreSQL database. It also includes scripts for database setup and file upload to S3.
 
 ## Table of Contents
